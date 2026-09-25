@@ -18,7 +18,6 @@ jobs:
               uses: actions/checkout@v4
               with:
                   repository: ligerlac/nopayloadclient
-                  token: ${{ secrets.my_token }}
                   path: nopayloadclient
 
             - name: Install client-side requirements
